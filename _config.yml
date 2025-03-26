@@ -1,10 +1,11 @@
 nav:
   Home: /
-  About: /about/
-  Writing: /posts/
-  Projects: http://github.com/sergodeeva
+  Search: /Search/
+  # About: /about/
+  # Writing: /posts/
+  Github: http://github.com/chenkxin
 
-projects_url: http://github.com/sergodeeva
+projects_url: http://github.com/chenkxin
 
 customize:
     gravatar:
@@ -13,23 +14,21 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/hacker.png
         gravatar: false
     favicon: 
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/favicon.ico
+        url: /images/hacker.png
         gravatar: false
       android:
-        url: /images/favicon-192x192.png
+        url: /images/hacker.png
         gravator: false
       apple:
-        url: /images/apple-touch-icon.png
+        url: /images/hacker.png
         gravator: false
     social_links:
-        github: http://github.com/sergodeeva
-        facebook: /
-        linkedin: https://www.linkedin.com/in/natalyakosenko/
+        github: http://github.com/chenkxin
     show_all_posts: false
     post_count: 10
     highlight: pojoaque
@@ -40,7 +39,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: UA-37473492-6 # enter the tracking ID for your Google Analytics
+    # google_analytics: G-PW6NFGW881 # enter the tracking ID for your Google Analytics
 
 # Miscellaneous
 miscellaneous:

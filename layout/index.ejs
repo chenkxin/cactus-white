@@ -4,12 +4,17 @@
   <% } %>
   <p style="display: inline">
     <% if (theme.customize.social_links) { %>
-      Find me on
+      <p>欢迎访问赵门内部博客平台。</p>
+      <p><strong>开放共享</strong> 是我们的初衷。</p>
+      <p>将不定期地发布一些技术文档，希望能够有所帮助。</p>
+      <p><strong>Have fun!!!</strong></p>
+      <!--
       <ul id="socialinfo">
         <% for(var i in theme.customize.social_links) { %>
           <li><a class="icon" target="_blank" href="<%- url_for(theme.customize.social_links[i]) %>"><i class="fa fa-<%= i %>"></i></a></li>
         <% } %>
       </ul>.
+      -->
     <% } %>
   </p>
 </section>
