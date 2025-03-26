@@ -1,6 +1,6 @@
 # Cactus White
 
-A responsive, white and simple [Hexo](http://hexo.io) theme for a personal website. Based on the original [Cactus Dark](https://github.com/probberechts/cactus-dark) theme by [Pieter Robberechts](https://github.com/probberechts).
+A responsive, white and simple [Hexo](http://hexo.io) theme for a personal website. Based on the original [Cactus Dark](https://github.com/probberechts/cactus-dark) theme by [Pieter Robberechts](https://github.com/probberechts) and the [Cactus-White](https://github.com/sergodeeva/cactus-white) theme by [Sergodeeva](https://github.com/sergodeeva).
 
 :cactus: [Demo](http://www.natalyakosenko.com/cactus-white/)
 
@@ -33,7 +33,7 @@ A responsive, white and simple [Hexo](http://hexo.io) theme for a personal websi
 1. In the `root` directory:
 
     ```git
-    $ git clone https://github.com/sergodeeva/cactus-white.git themes/cactus-white
+    $ git clone https://github.com/chenkxin/cactus-white.git themes/cactus-white
     $ npm install hexo-pagination --save
     ```
 
@@ -56,7 +56,7 @@ Setup the navigation menu in the theme's `_config.yml`:
     Home: /
     About: /about/
     Writing: /posts/
-    Projects: http://github.com/sergodeeva
+    Projects: http://github.com/chenkxin
   ```
 
 ### Blog posts list on home page
