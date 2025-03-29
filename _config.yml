@@ -1,9 +1,17 @@
 nav:
   Home: /
   Search: /Search/
+  Categories: /Categories/
+  Tags: /Tags/
   # About: /about/
   # Writing: /posts/
   Github: http://github.com/chenkxin
+
+# Show a Tags section on the home page
+show_tags_section: true
+
+# Show a Category section on the home page
+show_category_section: true
 
 projects_url: http://github.com/chenkxin
 
