@@ -148,6 +148,57 @@ Pick one of [the available colorschemes](https://github.com/sergodeeva/cactus-wh
       highlight: COLORSCHEME_NAME
   ```
 
+### Tags and categories
+
+Tags and categories can be included in the front-matter of your posts. For example:
+
+```markdown
+title: Tags and Categories
+date: 2017-12-24 23:29:53
+tags:
+- Foo
+- Bar
+categories: 
+- Baz
+---
+
+This post contains 2 tags and 1 category.
+```
+
+You can create a page with a tag cloud by running:
+
+```sh
+$ hexo new page tags
+```
+
+Next, add `layout: tags` to the front-matter of `source/tags/index.md`.
+
+Similarly, you can create a page with an overview of all categories by running:
+
+```sh
+$ hexo new page categories
+```
+
+and adding `layout: categories` to the front-matter of `source/categories/index.md`. 
+
+Finally, don't forget to create a link to these pages, for example in the navigation menu:
+
+```yml
+nav:
+  tag: /tags/
+  category: /categories/
+```
+
+You can show a category and tag section on the home page by editing the hexo `_config.yml` file.
+
+```yml
+# Show a Tags section on the home page
+show_tags_section: true
+
+# Show a Category section on the home page
+show_category_section: true
+```
+
 ### Local search
 
 First, install the [hexo-generate-search](https://www.npmjs.com/package/hexo-generator-search) plugin, which will generate a search index file.
