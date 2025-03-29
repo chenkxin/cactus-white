@@ -2,7 +2,9 @@
 <div class="page">
   <div class="post-list">
     <span class="h1"><a href="<%- url_for('/categories') %>">Categories</a></span>
+    <!--
     a category wise display of posts 
+    -->
     <% if (site.categories && site.categories.length > 0) { %>
       <ul class="category-list">
         <% site.categories.forEach(function(category){ %>

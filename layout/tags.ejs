@@ -2,7 +2,9 @@
 <div class="page">
   <div class="post-list">
     <span class="h1"><a href="<%- url_for('/tags') %>">Tags</a></span>
+    <!--
     a tag wise display of posts
+    -->
     <% if (site.tags && site.tags.length > 0) { %>
       <ul class="tag-list">
         <% site.tags.forEach(function(tag){ %>
