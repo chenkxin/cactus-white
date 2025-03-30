@@ -1,8 +1,8 @@
 nav:
   Home: /
-  Categories: /Categories/
-  Tags: /Tags/
-  Search: /Search/
+  Categories: /categories/
+  Tags: /tags/
+  Search: /search/
   # About: /about/
   # Writing: /posts/
   Github: http://github.com/chenkxin
